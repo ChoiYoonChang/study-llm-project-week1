@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:teamsparta.notion.site)",
-      "Bash(chmod:*)"
+      "Bash(chmod:*)",
+      "Bash(mkdir:*)"
     ],
     "deny": [],
     "ask": []

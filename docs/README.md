@@ -9,23 +9,23 @@
 ### 🚀 프로젝트 기본 정보
 | 문서 | 설명 | 상태 |
 |------|------|------|
-| [📖 seedprompt.md](./seedprompt.md) | 원본 프로젝트 요구사항 | ✅ 완료 |
-| [🔍 code-review-report.md](./code-review-report.md) | 시니어 개발자 코드 리뷰 보고서 | ✅ 완료 |
+| [📖 seedprompt.md](prompt/seedprompt.md) | 원본 프로젝트 요구사항 | ✅ 완료 |
+| [🔍 code-review-report.md](codereview/code-review-report.md) | 시니어 개발자 코드 리뷰 보고서 | ✅ 완료 |
 
 ### 🏗️ 구현 가이드 (Phase별)
 | Phase | 문서 | 주요 내용 | 예상 시간 |
 |-------|------|-----------|----------|
-| **Phase 1** | [🔧 phase1-project-setup.md](./phase1-project-setup.md) | 프로젝트 초기 설정 및 기반 구조 | 4-6시간 |
-| **Phase 2** | [📊 phase2-portfolio-analyzer.md](./phase2-portfolio-analyzer.md) | 포트폴리오 분석기 (필수과제) | 6-8시간 |
-| **Phase 3** | [🔔 phase3-price-alert-system.md](./phase3-price-alert-system.md) | 가격 알림 시스템 (필수과제) | 8-10시간 |
-| **Phase 4** | [📈 phase4-return-calculator.md](./phase4-return-calculator.md) | 수익률 계산기 (도전과제) | 10-12시간 |
+| **Phase 1** | [🔧 phase1-project-setup.md](phase/phase1-project-setup.md) | 프로젝트 초기 설정 및 기반 구조 | 4-6시간 |
+| **Phase 2** | [📊 phase2-portfolio-analyzer.md](phase/phase2-portfolio-analyzer.md) | 포트폴리오 분석기 (필수과제) | 6-8시간 |
+| **Phase 3** | [🔔 phase3-price-alert-system.md](phase/phase3-price-alert-system.md) | 가격 알림 시스템 (필수과제) | 8-10시간 |
+| **Phase 4** | [📈 phase4-return-calculator.md](phase/phase4-return-calculator.md) | 수익률 계산기 (도전과제) | 10-12시간 |
 
 ### 📐 시스템 설계 다이어그램
 | 다이어그램 | 문서 | 내용 |
 |------------|------|------|
-| **Flow Chart** | [🔄 flowchart.md](./flowchart.md) | 전체 시스템 및 Phase별 흐름도 |
-| **Sequence Diagram** | [⏰ sequence-diagram.md](./sequence-diagram.md) | 객체 간 상호작용 시퀀스 |
-| **Class Diagram** | [🏗️ class-diagram.md](./class-diagram.md) | 클래스 구조 및 관계도 |
+| **Flow Chart** | [🔄 flowchart.md](diagram/flowchart.md) | 전체 시스템 및 Phase별 흐름도 |
+| **Sequence Diagram** | [⏰ sequence-diagram.md](diagram/sequence-diagram.md) | 객체 간 상호작용 시퀀스 |
+| **Class Diagram** | [🏗️ class-diagram.md](diagram/class-diagram.md) | 클래스 구조 및 관계도 |
 
 ---
 
@@ -101,10 +101,10 @@ pip install -r requirements.txt
 ```
 
 ### 2️⃣ **Phase별 구현**
-1. **[Phase 1](./phase1-project-setup.md)** - 프로젝트 기반 구조 설정
-2. **[Phase 2](./phase2-portfolio-analyzer.md)** - 포트폴리오 분석기 구현
-3. **[Phase 3](./phase3-price-alert-system.md)** - 가격 알림 시스템 구현
-4. **[Phase 4](./phase4-return-calculator.md)** - 수익률 계산기 구현
+1. **[Phase 1](phase/phase1-project-setup.md)** - 프로젝트 기반 구조 설정
+2. **[Phase 2](phase/phase2-portfolio-analyzer.md)** - 포트폴리오 분석기 구현
+3. **[Phase 3](phase/phase3-price-alert-system.md)** - 가격 알림 시스템 구현
+4. **[Phase 4](phase/phase4-return-calculator.md)** - 수익률 계산기 구현
 
 ### 3️⃣ **실행**
 ```bash
@@ -172,7 +172,7 @@ python tests/test_api_client.py
 
 ### 🎯 **고급자** (실무 적용 희망자)
 1. 전체 Phase 구현
-2. [코드 리뷰 보고서](./code-review-report.md) 보완사항 적용
+2. [코드 리뷰 보고서](codereview/code-review-report.md) 보완사항 적용
 3. 추가 기능 확장 (웹 인터페이스, DB 연동 등)
 
 ---
@@ -180,7 +180,7 @@ python tests/test_api_client.py
 ## 📞 지원 및 문의
 
 ### 🐛 **문제 해결**
-1. **[코드 리뷰 보고서](./code-review-report.md)** - 알려진 이슈와 해결방안
+1. **[코드 리뷰 보고서](codereview/code-review-report.md)** - 알려진 이슈와 해결방안
 2. **각 Phase 문서의 "완료 후 확인사항"** - 체크리스트 활용
 3. **테스트 파일** - 기능별 동작 확인
 

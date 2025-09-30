@@ -49,13 +49,13 @@ week1-python-project/
 
 | Phase | 문서 | 주요 내용 | 예상 시간 |
 |-------|------|-----------|----------|
-| **Phase 1** | [🔧 phase1-project-setup.md](./docs/phase1-project-setup.md) | 프로젝트 기반 구조 설정 | 4-6시간 |
-| **Phase 2** | [📊 phase2-portfolio-analyzer.md](./docs/phase2-portfolio-analyzer.md) | 포트폴리오 분석기 구현 | 6-8시간 |
-| **Phase 3** | [🔔 phase3-price-alert-system.md](./docs/phase3-price-alert-system.md) | 가격 알림 시스템 구현 | 8-10시간 |
-| **Phase 4** | [📈 phase4-return-calculator.md](./docs/phase4-return-calculator.md) | 수익률 계산기 구현 | 10-12시간 |
+| **Phase 1** | [🔧 phase1-project-setup.md](docs/phase/phase1-project-setup.md) | 프로젝트 기반 구조 설정 | 4-6시간 |
+| **Phase 2** | [📊 phase2-portfolio-analyzer.md](docs/phase/phase2-portfolio-analyzer.md) | 포트폴리오 분석기 구현 | 6-8시간 |
+| **Phase 3** | [🔔 phase3-price-alert-system.md](docs/phase/phase3-price-alert-system.md) | 가격 알림 시스템 구현 | 8-10시간 |
+| **Phase 4** | [📈 phase4-return-calculator.md](docs/phase/phase4-return-calculator.md) | 수익률 계산기 구현 | 10-12시간 |
 
 ### 🔍 **3단계: 품질 보증**
-- **[🔍 code-review-report.md](./docs/code-review-report.md)** - 30년 경력 시니어 개발자의 코드 리뷰
+- **[🔍 code-review-report.md](docs/codereview/code-review-report.md)** - 30년 경력 시니어 개발자의 코드 리뷰
 
 ---
 
