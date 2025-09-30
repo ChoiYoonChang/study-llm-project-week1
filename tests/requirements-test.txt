@@ -1,0 +1,39 @@
+# 테스트 전용 의존성 패키지
+# 기본 테스트 프레임워크
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+pytest-asyncio==0.21.1
+
+# 병렬 테스트 실행
+pytest-xdist==3.3.1
+
+# 테스트 리포트 생성
+pytest-html==4.1.1
+pytest-json-report==1.5.0
+
+# Mock 라이브러리
+responses==0.24.1
+requests-mock==1.11.0
+
+# 데이터 검증
+faker==20.1.0
+
+# 성능 테스트
+pytest-benchmark==4.0.0
+memory-profiler==0.61.0
+
+# 테스트 품질 관리
+pytest-clarity==1.0.1
+pytest-sugar==0.9.7
+
+# 코드 커버리지
+coverage==7.3.2
+
+# 정적 분석 (선택사항)
+flake8==6.1.0
+black==23.11.0
+mypy==1.7.1
+
+# 환경 관리
+python-dotenv==1.0.0
