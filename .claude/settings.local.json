@@ -3,7 +3,9 @@
     "allow": [
       "WebFetch(domain:teamsparta.notion.site)",
       "Bash(chmod:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)"
     ],
     "deny": [],
     "ask": []

@@ -92,13 +92,17 @@ week1-python-project/
 cd week1-python-project
 
 # 2. 가상환경 생성 (권장)
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
 # venv\Scripts\activate   # Windows
 
 # 3. 의존성 설치
 pip install -r requirements.txt
 ```
+
+> **💡 참고**: 이 프로젝트는 `python3` 명령어를 사용합니다.  
+> 일부 시스템에서는 `python`과 `python3`가 다른 버전을 가리킬 수 있으므로,  
+> 모든 실행 명령어에서 `python3`를 사용하시기 바랍니다.
 
 ### 2️⃣ **Phase별 구현**
 1. **[Phase 1](phase/phase1-project-setup.md)** - 프로젝트 기반 구조 설정
@@ -109,10 +113,10 @@ pip install -r requirements.txt
 ### 3️⃣ **실행**
 ```bash
 # 메인 프로그램 실행
-python main.py
+python3 main.py
 
 # 개별 테스트 실행
-python tests/test_api_client.py
+python3 tests/test_api_client.py
 ```
 
 ---

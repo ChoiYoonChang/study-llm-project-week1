@@ -33,24 +33,33 @@ def main():
 
             if choice == '1':
                 print("\n📊 포트폴리오 분석기")
-                print("🚧 Phase 2에서 구현 예정입니다.")
-                # TODO: Phase 2 구현 후 import 및 함수 호출 추가
-                # from src.portfolio_analyzer import run_portfolio_analyzer
-                # run_portfolio_analyzer()
+                try:
+                    from src.portfolio_analyzer import run_portfolio_analyzer
+                    run_portfolio_analyzer()
+                except ImportError as e:
+                    print(f"❌ 포트폴리오 분석기를 불러올 수 없습니다: {e}")
+                except Exception as e:
+                    print(f"❌ 오류 발생: {e}")
 
             elif choice == '2':
                 print("\n🔔 가격 알림 시스템")
-                print("🚧 Phase 3에서 구현 예정입니다.")
-                # TODO: Phase 3 구현 후 import 및 함수 호출 추가
-                # from src.price_alert import run_price_alert
-                # run_price_alert()
+                try:
+                    from src.price_alert import run_price_alert
+                    run_price_alert()
+                except ImportError as e:
+                    print(f"❌ 가격 알림 시스템을 불러올 수 없습니다: {e}")
+                except Exception as e:
+                    print(f"❌ 오류 발생: {e}")
 
             elif choice == '3':
                 print("\n📈 수익률 계산기")
-                print("🚧 Phase 4에서 구현 예정입니다.")
-                # TODO: Phase 4 구현 후 import 및 함수 호출 추가
-                # from src.return_calculator import run_return_calculator
-                # run_return_calculator()
+                try:
+                    from src.return_calculator import run_return_calculator
+                    run_return_calculator()
+                except ImportError as e:
+                    print(f"❌ 수익률 계산기를 불러올 수 없습니다: {e}")
+                except Exception as e:
+                    print(f"❌ 오류 발생: {e}")
 
             elif choice == '4':
                 print("\n👋 프로그램을 종료합니다. 감사합니다!")
